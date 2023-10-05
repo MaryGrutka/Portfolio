@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-  <title>Sobre Mim</title>
+  <title>Portfólio</title>
   <link rel="stylesheet" href="style.css">
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,28 +14,36 @@
   <!--MENU-->
   <header>
     <ul class="menu">
-      <li><a href="#menu1">Sobre Mim</a></li>
-      <li><a href="#menu2">Projetos</a></li>
-      <li><a href="#menu3">Contato</a></li>
+      <li><a href="./index.html">Sobre Mim</a></li>
+      <li><a href="./projetos.html">Projetos</a></li>
+      <li><a href="./contato.html">Contato</a></li>
     </ul>
   </header>
-  <!--CAPA-->
-  <figure id="capa" class="centro">
-    <div class="imagem_fundo">
-      <h1 class="titulo">Sobre Mim</h1>
-    </div>
-  </figure>
+
   <!--PROJETO-->
   <section id="menu1" class="cor_fundo">
-    
+    <div class="sec con">
+      <h1 class="titulo">Contato</h1>
+      <form action="mailto:atividade@exemplo.com" method="post" enctype="text/plain">
+        Nome:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Assunto:<br>
+        <input type="text" name="subject"><br>
+        Mensagem:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+     </form>
+    </div>
   </section>
   
   <footer>
     <div class="coluna dois">
-      <p class="centro">Projeto #ElasNaTech</p>
+      <p class="centro" style="padding-top: 17px; font-size: 18px;"><b>Desenvolvido no curso de Programação do Projeto #ElasNaTech, baseado no projeto do curso da JA Brasil</b></p>
     </div>
     <div class="coluna dois">
-      <p class="centro"><a href="#" class="fa fa-instagram"></a><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-linkedin"></a></p>
+      <p class="centro"><a href="https://www.linkedin.com/in/marilene-grutka-455a8a248" class="fa fa-linkedin" target="_blank"></a><a href="https://github.com/MaryGrutka" class="fa fa-github" target="_blank"></a></p>
     </div>
   </footer>
 </body>

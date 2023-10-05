@@ -4,6 +4,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+  background: #f7f7f7;
 }
 section {
   width: 100%;
@@ -44,8 +45,14 @@ header .menu li:hover {
   background-color: rgb(10, 33, 236);
 }
 
-#sobre_mim p {
+.sec p {
   margin: 0 15% 1% 15%;
+  color: black;
+  font-size: 20px;
+}
+
+form {
+  margin: 0 15% 1% 10%;
   color: black;
   font-size: 20px;
 }
@@ -63,13 +70,27 @@ h1.titulo {
 h2.titulo {
   padding-top: 20px;
   font-size: 30px;
-  margin: 0 30% 0 30%;
+  margin: 2% 30% 0 30%;
   border-top: 3px solid rgb(10, 33, 236);
   padding-bottom: 30px;
 }
 section img {
   margin: 0 0 1% 45%;
   margin-top: 0%;
+}
+#cv {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgb(10, 33, 236);
+  color: white;
+  opacity: 0.7;
+  margin-left: 45%;
+}
+#cv:hover {
+  opacity: 0.8;
 }
 .cta {
   border: 1px solid white;
@@ -159,10 +180,13 @@ h2 {
 footer {
   background-color: rgb(10, 33, 236);
   width: 100%;
-  margin: 0 auto;
   overflow: hidden;
   padding: 30px 0 50px 0;
   color: #fff;
+  position: relative;
+  bottom: 0;
+  height: 90px;
+  margin-top: 88px;
 }
 footer .container {
   padding: 30px 0 50px 0;
